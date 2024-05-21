@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImg from '../../assets/cat.png'
+import backgroundImg from '../../assets/background.avif'
 
 export const Container = styled.div`
     height: 100vh;
@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
-    padding: 0 136px;
+    padding: 0 16.1rem;
 
     display: flex;
     flex-direction: column;

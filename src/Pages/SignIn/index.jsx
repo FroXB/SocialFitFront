@@ -10,8 +10,8 @@ export function SignIn() {
     return (
         <Container>
             <Form>
-                <h1>Rocket Notes</h1>
-                <p>Aplicação para salvar e gerenciar seus linkes úteis.</p>
+                <h1>Social Fit</h1>
+                <p>Sua rede social fitness.</p>
 
                 <h2>Faça seu login</h2>
 

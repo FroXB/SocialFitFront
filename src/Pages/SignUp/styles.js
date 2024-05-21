@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundImg from '../../assets/cat.png'
+import backgroundImg from '../../assets/background.avif'
 
 export const Container = styled.div`
     height: 100vh;
@@ -9,7 +9,7 @@ export const Container = styled.div`
 `;
 
 export const Form = styled.form`
-    padding: 0 136px;
+    padding: 0 8rem;
 
     display: flex;
     flex-direction: column;
@@ -44,3 +44,18 @@ export const Background = styled.div`
     background: url(${backgroundImg}) no-repeat center center;
     background-size: cover;
 `;  
+
+export const GridContainer = styled.div`
+    display: grid;
+    width: 100%;
+    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+`;
+
+export const FullWidth = styled.div`
+    grid-column: span 2;
+`;
+
+export const HalfWidth = styled.div`
+    grid-column: span 1;
+`;
